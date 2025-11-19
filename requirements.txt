@@ -5,4 +5,4 @@ requests==2.20.0
 # 該版本可能存在 DoS 或其他較低風險的漏洞
 urllib3==1.25.10
 
-Pillow==5.0.0
+pillow>=10.3.0
