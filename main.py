@@ -19,5 +19,4 @@ def roll_dice():
 
 
 def roll():
-    a = 
     return randint(1, 6)
