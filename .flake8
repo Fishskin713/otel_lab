@@ -1,0 +1,16 @@
+[flake8]
+max-line-length = 100
+
+# 忽略某些 Flake8 檢查的錯誤碼
+# E501: 忽略行長度檢查 (如果上面設置了 max-line-length，通常不需要忽略)
+# W503: 忽略二元運算符號前的換行 (根據 PEP 8 推薦)
+ignore = W503, E203
+
+# 設置 Flake8 掃描時要排除的目錄 (例如：虛擬環境, 暫存目錄)
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    myenv,
+    migrations,
+    build
